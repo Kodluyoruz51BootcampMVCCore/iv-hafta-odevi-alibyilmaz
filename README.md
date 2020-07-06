@@ -58,7 +58,7 @@ It returns a single specific element from a collection of elements if element ma
 
 ### SingleOrDefault
 It returns a single specific element from a collection of elements if element match found. An exception is thrown, if more than one match found for that element in the collection. A default value is returned, if no match is found for that element in the collection.
-``
+```
 List<int> data = new List<int> { 10, 20, 30, 40, 50 };
 
 //Try to get element at specified position
@@ -87,7 +87,7 @@ Console.WriteLine(data.Single(d => d == 10)); //result:10
 
 //try to get single element 100 if exist otherwise returns default value
 Console.WriteLine(data.SingleOrDefault(d => d == 100)); //result:0, since default value is 0
-``
+```
 ### First
 It returns first specific element from a collection of elements if one or more than one match found for that element. An exception is thrown, if no match is found for that element in the collection.
 
@@ -99,7 +99,7 @@ src: https://www.dotnettricks.com/learn/linq/understanding-single-singleordefaul
 ## How to make shortest Null check?
 Use operators ?? and ??= For example;
 
-``
+```
 List<int> numbers = null;
 int? a = null;
 
@@ -109,7 +109,7 @@ Console.WriteLine(string.Join(" ", numbers));  // output: 5
 numbers.Add(a ??= 0);
 Console.WriteLine(string.Join(" ", numbers));  // output: 5 0
 Console.WriteLine(a);  // output: 0
-``
+```
 src:https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/null-coalescing-operator
 
 ## What is PartialView
