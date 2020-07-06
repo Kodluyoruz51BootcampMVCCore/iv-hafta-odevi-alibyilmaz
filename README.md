@@ -116,7 +116,9 @@ src:https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/
 Partial view in ASP.NET MVC is special view which renders a portion of view content. It is just like a user control of a web form application. Partial can be reusable in multiple views. It helps us to reduce code duplication. In other word a partial view enables us to render a view within the parent view.
 
 tutorial: https://www.c-sharpcorner.com/UploadFile/ff2f08/partial-view-in-mvc/
-
+### Authentication sample
+This is complex sample application to support social authentication providers like GitHub, Foursquare or Dropbox
+https://github.com/aspnet-contrib/AspNet.Security.OAuth.Providers
 ## Compare to Razor pages and MVC
 ### What is Razar Pages? 
 A Razor Page is very similar to the view component that ASP.NET MVC developers are used to. It has all the same syntax and functionality.
